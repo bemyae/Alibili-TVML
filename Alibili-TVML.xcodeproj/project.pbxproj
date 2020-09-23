@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF90263251B4545001AE252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF90262251B4545001AE252 /* AppDelegate.swift */; };
+		CAF90266251B4546001AE252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF90265251B4546001AE252 /* Assets.xcassets */; };
+		CAF90269251B4546001AE252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF90267251B4546001AE252 /* LaunchScreen.storyboard */; };
+		CAF90274251B4547001AE252 /* Alibili_TVMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF90273251B4547001AE252 /* Alibili_TVMLTests.swift */; };
+		CAF9027F251B4547001AE252 /* Alibili_TVMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9027E251B4547001AE252 /* Alibili_TVMLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF90270251B4547001AE252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF90257251B4545001AE252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF9025E251B4545001AE252;
+			remoteInfo = "Alibili-TVML";
+		};
+		CAF9027B251B4547001AE252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF90257251B4545001AE252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF9025E251B4545001AE252;
+			remoteInfo = "Alibili-TVML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF9025F251B4545001AE252 /* Alibili-TVML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alibili-TVML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF90262251B4545001AE252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF90264251B4545001AE252 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		CAF90265251B4546001AE252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF90268251B4546001AE252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF9026A251B4546001AE252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF9026F251B4547001AE252 /* Alibili-TVMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alibili-TVMLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF90273251B4547001AE252 /* Alibili_TVMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alibili_TVMLTests.swift; sourceTree = "<group>"; };
+		CAF90275251B4547001AE252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF9027A251B4547001AE252 /* Alibili-TVMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alibili-TVMLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF9027E251B4547001AE252 /* Alibili_TVMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alibili_TVMLUITests.swift; sourceTree = "<group>"; };
+		CAF90280251B4547001AE252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF9025C251B4545001AE252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF9026C251B4547001AE252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF90277251B4547001AE252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF90256251B4545001AE252 = {
+			isa = PBXGroup;
+			children = (
+				CAF90261251B4545001AE252 /* Alibili-TVML */,
+				CAF90272251B4547001AE252 /* Alibili-TVMLTests */,
+				CAF9027D251B4547001AE252 /* Alibili-TVMLUITests */,
+				CAF90260251B4545001AE252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF90260251B4545001AE252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9025F251B4545001AE252 /* Alibili-TVML.app */,
+				CAF9026F251B4547001AE252 /* Alibili-TVMLTests.xctest */,
+				CAF9027A251B4547001AE252 /* Alibili-TVMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF90261251B4545001AE252 /* Alibili-TVML */ = {
+			isa = PBXGroup;
+			children = (
+				CAF90262251B4545001AE252 /* AppDelegate.swift */,
+				CAF90264251B4545001AE252 /* application.js */,
+				CAF90265251B4546001AE252 /* Assets.xcassets */,
+				CAF90267251B4546001AE252 /* LaunchScreen.storyboard */,
+				CAF9026A251B4546001AE252 /* Info.plist */,
+			);
+			path = "Alibili-TVML";
+			sourceTree = "<group>";
+		};
+		CAF90272251B4547001AE252 /* Alibili-TVMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF90273251B4547001AE252 /* Alibili_TVMLTests.swift */,
+				CAF90275251B4547001AE252 /* Info.plist */,
+			);
+			path = "Alibili-TVMLTests";
+			sourceTree = "<group>";
+		};
+		CAF9027D251B4547001AE252 /* Alibili-TVMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9027E251B4547001AE252 /* Alibili_TVMLUITests.swift */,
+				CAF90280251B4547001AE252 /* Info.plist */,
+			);
+			path = "Alibili-TVMLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF9025E251B4545001AE252 /* Alibili-TVML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF90283251B4547001AE252 /* Build configuration list for PBXNativeTarget "Alibili-TVML" */;
+			buildPhases = (
+				CAF9025B251B4545001AE252 /* Sources */,
+				CAF9025C251B4545001AE252 /* Frameworks */,
+				CAF9025D251B4545001AE252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alibili-TVML";
+			productName = "Alibili-TVML";
+			productReference = CAF9025F251B4545001AE252 /* Alibili-TVML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF9026E251B4547001AE252 /* Alibili-TVMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF90286251B4547001AE252 /* Build configuration list for PBXNativeTarget "Alibili-TVMLTests" */;
+			buildPhases = (
+				CAF9026B251B4547001AE252 /* Sources */,
+				CAF9026C251B4547001AE252 /* Frameworks */,
+				CAF9026D251B4547001AE252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF90271251B4547001AE252 /* PBXTargetDependency */,
+			);
+			name = "Alibili-TVMLTests";
+			productName = "Alibili-TVMLTests";
+			productReference = CAF9026F251B4547001AE252 /* Alibili-TVMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF90279251B4547001AE252 /* Alibili-TVMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF90289251B4547001AE252 /* Build configuration list for PBXNativeTarget "Alibili-TVMLUITests" */;
+			buildPhases = (
+				CAF90276251B4547001AE252 /* Sources */,
+				CAF90277251B4547001AE252 /* Frameworks */,
+				CAF90278251B4547001AE252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF9027C251B4547001AE252 /* PBXTargetDependency */,
+			);
+			name = "Alibili-TVMLUITests";
+			productName = "Alibili-TVMLUITests";
+			productReference = CAF9027A251B4547001AE252 /* Alibili-TVMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF90257251B4545001AE252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CAF9025E251B4545001AE252 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					CAF9026E251B4547001AE252 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CAF9025E251B4545001AE252;
+					};
+					CAF90279251B4547001AE252 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CAF9025E251B4545001AE252;
+					};
+				};
+			};
+			buildConfigurationList = CAF9025A251B4545001AE252 /* Build configuration list for PBXProject "Alibili-TVML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF90256251B4545001AE252;
+			productRefGroup = CAF90260251B4545001AE252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF9025E251B4545001AE252 /* Alibili-TVML */,
+				CAF9026E251B4547001AE252 /* Alibili-TVMLTests */,
+				CAF90279251B4547001AE252 /* Alibili-TVMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF9025D251B4545001AE252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF90266251B4546001AE252 /* Assets.xcassets in Resources */,
+				CAF90269251B4546001AE252 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF9026D251B4547001AE252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF90278251B4547001AE252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF9025B251B4545001AE252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF90263251B4545001AE252 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF9026B251B4547001AE252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF90274251B4547001AE252 /* Alibili_TVMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF90276251B4547001AE252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9027F251B4547001AE252 /* Alibili_TVMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF90271251B4547001AE252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF9025E251B4545001AE252 /* Alibili-TVML */;
+			targetProxy = CAF90270251B4547001AE252 /* PBXContainerItemProxy */;
+		};
+		CAF9027C251B4547001AE252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF9025E251B4545001AE252 /* Alibili-TVML */;
+			targetProxy = CAF9027B251B4547001AE252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF90267251B4546001AE252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF90268251B4546001AE252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF90281251B4547001AE252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		CAF90282251B4547001AE252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF90284251B4547001AE252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3WZAUQ74J;
+				INFOPLIST_FILE = "Alibili-TVML/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.soymilk.Alibili-TVML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		CAF90285251B4547001AE252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3WZAUQ74J;
+				INFOPLIST_FILE = "Alibili-TVML/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.soymilk.Alibili-TVML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		CAF90287251B4547001AE252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3WZAUQ74J;
+				INFOPLIST_FILE = "Alibili-TVMLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.soymilk.Alibili-TVMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alibili-TVML.app/Alibili-TVML";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		CAF90288251B4547001AE252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3WZAUQ74J;
+				INFOPLIST_FILE = "Alibili-TVMLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.soymilk.Alibili-TVMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alibili-TVML.app/Alibili-TVML";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		CAF9028A251B4547001AE252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3WZAUQ74J;
+				INFOPLIST_FILE = "Alibili-TVMLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.soymilk.Alibili-TVMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Alibili-TVML";
+			};
+			name = Debug;
+		};
+		CAF9028B251B4547001AE252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3WZAUQ74J;
+				INFOPLIST_FILE = "Alibili-TVMLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.soymilk.Alibili-TVMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Alibili-TVML";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF9025A251B4545001AE252 /* Build configuration list for PBXProject "Alibili-TVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF90281251B4547001AE252 /* Debug */,
+				CAF90282251B4547001AE252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF90283251B4547001AE252 /* Build configuration list for PBXNativeTarget "Alibili-TVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF90284251B4547001AE252 /* Debug */,
+				CAF90285251B4547001AE252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF90286251B4547001AE252 /* Build configuration list for PBXNativeTarget "Alibili-TVMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF90287251B4547001AE252 /* Debug */,
+				CAF90288251B4547001AE252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF90289251B4547001AE252 /* Build configuration list for PBXNativeTarget "Alibili-TVMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF9028A251B4547001AE252 /* Debug */,
+				CAF9028B251B4547001AE252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF90257251B4545001AE252 /* Project object */;
+}
